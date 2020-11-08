@@ -6,7 +6,7 @@ require_once ('php/CreateDb.php');
 require_once ('php/component.php');
 
 // Créer l'instance CreateDb class
-$database = new CreateDb($dbname="meuledefeqowc",$tablename="minishop_produits");
+$database = new CreateDb($dbname="minishop",$tablename="minishop_produits");
 
 // Ajouter au panier
 if(isset($_POST['ajouter']))
