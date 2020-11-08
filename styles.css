@@ -1,0 +1,34 @@
+img {
+    max-width: 100%;
+    height: auto;
+    background: lightblue;
+    background-image: radial-gradient(white 30%, lightblue 70%);
+}
+
+.fa-star,
+.fa-star-half {
+    color: yellowgreen;
+    padding: 3% 0;
+}
+
+#decompte_panier
+{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.panier
+{
+    padding: 3% 0;
+}
+
+.items-panier + .items-panier
+{
+    padding: 2% 0;
+}
+
+.details-prix h6
+{
+    padding: 3% 2%;
+}
