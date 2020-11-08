@@ -6,7 +6,7 @@ require_once ("php/CreateDb.php");
 require_once ("php/component.php");
 
 // Créer l'instance CreateDb class
-$db = new CreateDb("meuledefeqowc","minishop_produits");
+$db = new CreateDb("minishsop","minishop_produits");
 
 if(isset($_POST['remove']))
 {
