@@ -11,19 +11,11 @@ class CreateDb
 
         // class constructor
     public function __construct(
-        // Connexion en local
-        /*
-        $dbname = "meuledefeqowc",
+        $dbname = "minishop",
         $tablename = "minishop_produits",
         $servername = "localhost",
         $username = "root",
         $password = "root"
-        */
-        $dbname = "meuledefeqowc",
-        $tablename = "minishop_produits",
-        $servername = "meuledefeqowc.mysql.db",
-        $username = "meuledefeqowc",
-        $password = "LDowc234"
     )
     {
       $this->dbname = $dbname;
